@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Authors>Hannes Barbez</Authors>
+    <Company>Hannes Barbez</Company>
+    <Title>BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay</Title>
+    <Product>BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay</Product>
+    <PackageId>BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay</PackageId>
+    <Copyright>©2024 Hannes Barbez</Copyright>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.1</Version>
+    <Description>An unofficial, modern client for the free "Quote of the day" of the 'They Said So® Famous Quotes API' at quotes.rest.</Description>
+    <PackageTags>basic;polite;Quotes.rest;TheySaidSo.com;integration;third-party integration;provider;barbez;quote;quotes;daily quote;quote of the day;QoD</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://barbez.eu</PackageProjectUrl>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>ICON.png</PackageIcon>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BarbezDotEu.Provider" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\ICON.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
