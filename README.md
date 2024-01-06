@@ -13,7 +13,7 @@ Your use of this client is governed by https://theysaidso.com/terms#api.
 
 # Code usage
 
-For an example on how to integrate this client into your code, see our [integration test](https://github.com/hannesbarbez/BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay/blob/main/BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay.Tests.Integration/QuotesRestClientShould.cs).
+For an example on how to integrate this client into your code, see our [integration test](https://github.com/hannesbarbez/BarbezDotEu.TheySaidSo.Quotes/blob/main/BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay.Tests.Integration/QuotesRestClientShould.cs).
 
 Simply follow this example to get started!
 
