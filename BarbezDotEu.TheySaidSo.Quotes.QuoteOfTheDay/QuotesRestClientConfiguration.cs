@@ -10,6 +10,7 @@ namespace BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay
     /// Constructs a new <see cref="QuotesRestClientConfiguration"/> using given parameters.
     /// </remarks>
     /// <param name="maxCallsPerDay">The maximum number of calls allowed per hour (see https://quotes.rest/ for current rate limits).</param>
+    /// <param name="apiKey">The API Key you got via https://theysaidso.com/api.</param>
     /// <param name="language">The language in which quotes are to be returned.</param>
     public class QuotesRestClientConfiguration(long maxCallsPerDay, string apiKey, string language = "en")
     {
