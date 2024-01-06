@@ -13,6 +13,8 @@ Your use of this client is governed by https://theysaidso.com/terms#api.
 
 # Code usage
 
+Reference the [BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay NuGet package in your project](https://www.nuget.org/packages/BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay).
+
 For an example on how to integrate this client into your code, see our [integration test](https://github.com/hannesbarbez/BarbezDotEu.TheySaidSo.Quotes/blob/main/BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay.Tests.Integration/QuotesRestClientShould.cs).
 
 Simply follow this example to get started!
