@@ -7,10 +7,10 @@
     <Title>BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay</Title>
     <Product>BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay</Product>
     <PackageId>BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay</PackageId>
-    <Copyright>©2024 Hannes Barbez</Copyright>
+    <Copyright>©2025 Hannes Barbez</Copyright>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Description>An unofficial, modern client for the free "Quote of the day" of the 'They Said So® Famous Quotes API' at quotes.rest.</Description>
     <PackageTags>basic;polite;Quotes.rest;TheySaidSo.com;integration;third-party integration;provider;barbez;quote;quotes;daily quote;quote of the day;QoD</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -24,6 +24,14 @@
     <PackageIcon>ICON.png</PackageIcon>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
+
+    <!-- only applies when Configuration == Release: -->
+    <PropertyGroup Condition="'$(Configuration)'=='Release'">
+        <!-- Turn off generation of a .pdb and strip debug info entirely -->
+        <DebugType>none</DebugType>
+        <DebugSymbols>false</DebugSymbols>
+        <Optimize>true</Optimize>
+    </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BarbezDotEu.Provider" Version="8.0.2" />
