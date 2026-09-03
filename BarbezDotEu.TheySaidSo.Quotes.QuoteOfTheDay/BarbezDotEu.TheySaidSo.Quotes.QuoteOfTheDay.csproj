@@ -34,7 +34,7 @@
     </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BarbezDotEu.Provider" Version="8.0.2" />
+    <PackageReference Include="BarbezDotEu.Provider" Version="10.0.1" />
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.1" />
   </ItemGroup>
   <ItemGroup>
