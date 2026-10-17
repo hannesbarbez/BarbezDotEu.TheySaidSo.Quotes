@@ -15,7 +15,7 @@ namespace BarbezDotEu.TheySaidSo.Quotes.QuoteOfTheDay.Tests.Integration
         private readonly IQuotesRestClientFactory _quotesRestClientFactory = quotesRestClientFactory;
 
         [Fact]
-        public async void GetQuoteOfTheDay()
+        public async Task GetQuoteOfTheDay()
         {
             // Arrange
             var client = _quotesRestClientFactory.Create();
